@@ -270,6 +270,17 @@ The initialized project already includes Manus OAuth, database access, S3 storag
 
 ## Vercel Pnpm Lockfile & Config Fixes
 
-- [ ] Remove deprecated patchedDependencies property from package.json to match pnpm settings
-- [ ] Regenerate clean pnpm-lock.yaml compatible with Vercel pnpm install
-- [ ] Update vercel.json to use standard npm/pnpm install command without frozen lockfile mismatch
+- [x] Remove deprecated patchedDependencies property from package.json to match pnpm settings
+- [x] Regenerate clean pnpm-lock.yaml compatible with Vercel pnpm install
+- [x] Update vercel.json to use standard npm/pnpm install command without frozen lockfile mismatch
+
+## Vercel 404 Routing Fix
+
+- [ ] Update vercel.json to correctly route serverless requests and static files
+- [ ] Rebuild project and package updated ZIP
+
+## Vercel Serverless Config Modernization
+
+- [ ] Remove legacy builds property from vercel.json to enable Vercel Project Settings integration
+- [ ] Configure standard Vercel rewrites and functions routing
+- [ ] Rebuild and package clean deployment ZIP
